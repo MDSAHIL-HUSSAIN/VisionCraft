@@ -154,20 +154,6 @@ The demo showcases:
  Editable Design Canvas
 ```
 
----
-
-# 💡 Future Enhancements
-
-- Adobe Firefly Integration
-- Real-time Team Collaboration
-- AI Design Recommendations
-- Brand Kit Integration
-- Team Workspaces
-- Usage Analytics
-- Marketplace Publishing
-
----
-
 # 👨‍💻 Built With
 
 ❤️ Adobe Express SDK
