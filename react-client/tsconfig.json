@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUnusedLocals": false,           // Turned off to reduce noise during dev
+    "noUnusedParameters": false,       // Turned off to reduce noise during dev
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution (The Fix for JSX error) */
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    /* Paths */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,28 @@
+{
+  "testId": "react-vite-addon-test",
+  "name": "AddOn",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+
+  "requirements": {
+    "apps": [{ "name": "Express", "apiVersion": 1 }],
+    "experimentalApis": true
+  },
+
+  "permissions": {
+    "network": {
+      "domains": [
+        "manojbadshahversioncontrolserver.onrender.com"
+      ]
+    }
+  },
+
+  "entryPoints": [
+    {
+      "type": "panel",
+      "id": "panel1",
+      "main": "index.html",
+      "documentSandbox": "code.js"
+    }
+  ]
+}
